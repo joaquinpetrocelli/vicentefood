@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Vicente Food - Servicio de Catering exclusivo y Viandas Congeladas caseras premium de alta calidad listas para disfrutar.">
+    <title>Vicente Food</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header / Navegación -->
+    <header class="main-header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="assets/logo_vicente_azul.png" alt="Vicente Food">
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#catering" class="nav-link">Catering</a>
+                <a href="viandas.html" class="nav-link">Viandas Congeladas</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menú">
+                    <i data-lucide="menu" id="menuIcon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-tagline">Servicio de Viandas & Catering para Eventos</span>
+                <h1 class="hero-title">El sabor de lo casero, con la distinción de lo gourmet.</h1>
+                <p class="hero-description">
+                    Disfrutá en casa de nuestras viandas congeladas premium, elaboradas con ingredientes
+                    frescos y descubrí nuestro servicio de catering para eventos inolvidables.
+                </p>
+                <div class="hero-actions-btns">
+                    <a href="viandas.html" class="btn btn-primary">Ver menú de Viandas</a>
+                    <a href="#catering" class="btn btn-secondary">Conocer Catering</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catering Section -->
+    <section class="catering-section" id="catering">
+        <div class="container">
+            <div class="section-header">
+                <!-- <span class="section-subtitle">Servicio de Catering</span> -->
+                <h2 class="section-title">Hacemos de tu evento un momento memorable</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="catering-grid">
+                <div class="catering-image-side">
+                    <img src="assets/pizza_catering.jpg" alt="Servicio de Catering Vicente Food"
+                        class="img-responsive rounded shadow img-hover-zoom">
+                </div>
+                <div class="catering-text-side">
+                    <h3>Servicio de Catering</h3>
+                    <p class="catering-p">
+                        En <strong>Vicente Food</strong> diseñamos propuestas gastronómicas exclusivas para eventos
+                        empresariales, cumpleaños, casamientos y reuniones. Cuidamos cada detalle: desde la
+                        selección de la calidad de los ingredientes hasta la presentación de nuestros platos.
+                    </p>
+
+                    <ul class="catering-features">
+                        <li>
+                            <div class="feature-icon-wrapper"><i data-lucide="check"></i></div>
+                            <div>
+                                <strong>Recepción y Cocktail:</strong> Bocados gourmet fríos y calientes diseñados
+                                para recepciones dinámicas.
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon-wrapper"><i data-lucide="check"></i></div>
+                            <div>
+                                <strong>Platos Principales y Estaciones:</strong> Cocina de autor adaptada a la temática
+                                de tu evento.
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon-wrapper"><i data-lucide="check"></i></div>
+                            <div>
+                                <strong>Opciones Especiales:</strong> Menús diseñados para comensales celíacos,
+                                vegetarianos y veganos.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Catering Booking Form -->
+            <div class="catering-form-container card">
+                <div class="form-intro">
+                    <i data-lucide="calendar-range" class="form-intro-icon"></i>
+                    <h3>¿Estás planificando un evento?</h3>
+                    <p>Completa el formulario y nos contactaremos a la brevedad para enviarte una propuesta
+                        personalizada.</p>
+                </div>
+
+                <form id="cateringForm" class="catering-form">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="cateringName">Nombre y Apellido *</label>
+                            <div class="input-wrapper">
+                                <i data-lucide="user" class="input-icon"></i>
+                                <input type="text" id="cateringName" required placeholder="Ej: Juan Pérez">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cateringPhone">Teléfono de Contacto *</label>
+                            <div class="input-wrapper">
+                                <i data-lucide="phone" class="input-icon"></i>
+                                <input type="tel" id="cateringPhone" required placeholder="Ej: 11 2345 6789">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cateringDate">Fecha Tentativa *</label>
+                            <div class="input-wrapper">
+                                <i data-lucide="calendar" class="input-icon"></i>
+                                <input type="date" id="cateringDate" required min="2026-06-03" max="2040-12-31">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cateringGuests">Número de Invitados *</label>
+                            <div class="input-wrapper">
+                                <i data-lucide="users" class="input-icon"></i>
+                                <input type="number" id="cateringGuests" required min="25"
+                                    placeholder="Mínimo 25 personas">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="cateringDetails">Detalles del Evento *</label>
+                        <div class="input-wrapper">
+                            <textarea id="cateringDetails" required
+                                placeholder="Contanos sobre tu evento. ¿Qué tipo de comida te gustaría? ¿Alguna restricción alimentaria o preferencia?"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-actions-row">
+                        <button type="button" id="btnCateringWhatsApp" class="btn btn-whatsapp flex-center">
+                            <i data-lucide="send" class="btn-icon"></i> Enviar por WhatsApp
+                        </button>
+                        <button type="button" id="btnCateringEmail" class="btn btn-outline flex-center">
+                            <i data-lucide="mail" class="btn-icon"></i> Enviar por Email
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <img src="assets/logo_vicente_blanco.png" alt="Vicente Food">
+                </a>
+                <p class="footer-desc mt-1">
+                    Servicios gastronómicos a medida y viandas congeladas listas para comer
+                    sano y rico todos los días.
+                </p>
+                <div class="social-links mt-2">
+                    <a href="https://www.instagram.com/vicente.food/" target="_blank"
+                        aria-label="Visítanos en Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.link/ye3ua2" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-nav">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#catering">Catering</a></li>
+                    <li><a href="viandas.html">Viandas Congeladas</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <ul>
+                    <li>
+                        <i data-lucide="phone" class="footer-icon"></i>
+                        <a href="tel:+5491150250623" class="footer-phone-link">+54 9 11 5025-0623</a>
+                    </li>
+                    <li>
+                        <i data-lucide="mail" class="footer-icon"></i>
+                        <span>pedidos@vicentefood.com</span>
+                    </li>
+                    <li>
+                        <i data-lucide="clock" class="footer-icon"></i>
+                        <span>Atención de pedidos: Lun a Sáb 9:00 a 19:00 hs</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Vicente Food. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.link/ye3ua2" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript Bundle -->
+    <script src="app.js"></script>
+</body>
+
+</html>
