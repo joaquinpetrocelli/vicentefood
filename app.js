@@ -3,7 +3,7 @@ const CONFIG = {
     whatsappNumber: "5491150250623",
     contactEmail: "pedidos@vicentefood.com",
     transferDiscount: 0,
-    workerURL: "https://vicentefood-api.tomas-aderosa.workers.dev/"
+    workerURL: "https://vicentefood-api.joaquinpetrocelli.workers.dev/"
 };
 
 // Estado Global de la Aplicación
