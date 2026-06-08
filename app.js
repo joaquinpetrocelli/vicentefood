@@ -886,7 +886,7 @@ async function processCheckoutSubmission() {
         // Si el worker falla se envía el pedido por whatsapp
         alert("Hubo un problema al procesar tu pedido. Por favor, ponete en contacto con Vicente Food.");
         const fallbackUrl = generateFallbackWhatsappUrl(payload);
-        window.open(fallbackUrl, "_blank");
+        window.location.href = fallbackUrl;
         
         clearCart();
         closeCheckoutModal();
