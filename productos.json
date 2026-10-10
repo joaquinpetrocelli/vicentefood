@@ -4,13 +4,13 @@
   },
   "products": [
     {
-      "id": 24,
+      "id": 22,
       "name": "Bondiola Desmenuzada",
-      "price": 9300,
+      "price": 24200,
       "category": "platos",
       "tipo": "carne",
       "image": "assets/bondiola_desmechada.jpg",
-      "description": "Bondiola desmechada con zanahorias, cebolla y puerro (500 gr)",
+      "description": "Bondiola desmechada con zanahorias, cebolla y puerro (1 kg)",
       "tags": ["Nuevo", "10-15 min"]
     },
     {
@@ -19,7 +19,7 @@
       "price": 9000,
       "category": "platos",
       "tipo": "carne",
-      "image": "assets/pastel_batata.jpeg",
+      "image": "assets/pastel_batata.jpg",
       "description": "Pastel de bondiola braseada, con puré de batata (500 gr)",
       "tags": ["Más Vendido", "15-20 min"]
     },
@@ -29,7 +29,7 @@
       "price": 8900,
       "category": "platos",
       "tipo": "carne",
-      "image": "assets/pastel_papa.jpeg",
+      "image": "assets/pastel_papa.jpg",
       "description": "Pastel de carne picada con cebolla, morrón, huevo y puré de papas (500 gr)",
       "tags": ["15-20 min"]
     },
@@ -39,7 +39,7 @@
       "price": 8900,
       "category": "platos",
       "tipo": "vegetariano",
-      "image": "assets/canelones_espinaca.jpeg",
+      "image": "assets/canelones_espinaca.jpg",
       "description": "Canelones de espinaca, ricota y nuez pecan (500 gr)",
       "tags": ["15-20 min"]
     },
@@ -49,7 +49,7 @@
       "price": 9200,
       "category": "platos",
       "tipo": "carne",
-      "image": "assets/canelones_pollo.jpeg",
+      "image": "assets/canelones_pollo.jpg",
       "description": "Canelones de pollo, puerro y jamón con salsa de crema y verdeo (500 gr)",
       "tags": ["Más Vendido", "15-20 min"]
     },
@@ -59,7 +59,7 @@
       "price": 9300,
       "category": "platos",
       "tipo": "carne",
-      "image": "assets/pollo_curry.jpeg",
+      "image": "assets/pollo_curry.jpg",
       "description": "Dados de pollo hecho al curry con cebolla y crema (400 gr)",
       "tags": ["15-20 min"]
     },
@@ -69,7 +69,7 @@
       "price": 9800,
       "category": "platos",
       "tipo": "carne",
-      "image": "assets/pollo_hongos.jpeg",
+      "image": "assets/pollo_hongos.jpg",
       "description": "Pollo salteado con cebolla, hongos de pino, champignones y crema (400 gr)",
       "tags": ["15-20 min"]
     },
@@ -79,7 +79,7 @@
       "price": 9900,
       "category": "platos",
       "tipo": "carne",
-      "image": "assets/goulash.jpeg",
+      "image": "assets/goulash.jpg",
       "description": "Carne en cocción lenta con cebolla, morrón y paprika, acompañado con spaetzle (500 gr)",
       "tags": ["15-20 min"]
     },
@@ -89,7 +89,7 @@
       "price": 8200,
       "category": "tartas",
       "tipo": "carne",
-      "image": "assets/tarta_pollo.jpeg",
+      "image": "assets/tarta_pollo.jpg",
       "description": "Tarta de pollo, puerro y mozzarella (330 gr)",
       "tags": ["Más Vendido", "25-30 min"]
     },
@@ -99,7 +99,7 @@
       "price": 7400,
       "category": "tartas",
       "tipo": "carne",
-      "image": "assets/tarta_jyq.jpeg",
+      "image": "assets/tarta_jyq.jpg",
       "description": "Tarta de jamón, mozzarella y queso sardo (330 gr)",
       "tags": ["25-30 min"]
     },
@@ -109,7 +109,7 @@
       "price": 7400,
       "category": "tartas",
       "tipo": "vegetariano",
-      "image": "assets/tarta_calabaza.jpeg",
+      "image": "assets/tarta_calabaza.jpg",
       "description": "Tarta de calabaza y mozzarella (330 gr)",
       "tags": ["25-30 min"]
     },
@@ -119,7 +119,7 @@
       "price": 8200,
       "category": "tartas",
       "tipo": "vegetariano",
-      "image": "assets/tarta_hongos.jpeg",
+      "image": "assets/tarta_hongos.jpg",
       "description": "Tarta de hongos de pino, cebolla y champignones (330 gr)",
       "tags": ["25-30 min"]
     },
@@ -129,7 +129,7 @@
       "price": 7500,
       "category": "tartas",
       "tipo": "vegetariano",
-      "image": "assets/tarta_zapallitos.jpeg",
+      "image": "assets/tarta_zapallitos.jpg",
       "description": "Tarta de zapallitos y mozzarella (330 gr)",
       "tags": ["25-30 min"]
     },
@@ -139,7 +139,7 @@
       "price": 8200,
       "category": "tartas",
       "tipo": "carne",
-      "image": "assets/tarta_brocoli.jpeg",
+      "image": "assets/tarta_brocoli.jpg",
       "description": "Tarta de brócoli con panceta ahumada y queso provolone (330 gr)",
       "tags": ["Más Vendido", "25-30 min"]
     },
@@ -149,7 +149,7 @@
       "price": 7500,
       "category": "tartas",
       "tipo": "vegetariano",
-      "image": "assets/tarta_qyc.jpeg",
+      "image": "assets/tarta_qyc.jpg",
       "description": "Tarta de cebolla y mozzarella (330 gr)",
       "tags": ["25-30 min"]
     },
@@ -159,7 +159,7 @@
       "price": 7800,
       "category": "tartas",
       "tipo": "vegetariano",
-      "image": "assets/tarta_puerros.jpeg",
+      "image": "assets/tarta_puerros.jpg",
       "description": "Tarta de puerros y mozzarella (330 gr)",
       "tags": ["25-30 min"]
     },
@@ -169,7 +169,7 @@
       "price": 7800,
       "category": "tartas",
       "tipo": "vegetariano",
-      "image": "assets/tarta_espinaca.jpeg",
+      "image": "assets/tarta_espinaca.jpg",
       "description": "Tarta de espinaca, tomates secos y mozzarella (330 gr)",
       "tags": ["25-30 min"]
     },
@@ -179,7 +179,7 @@
       "price": 12000,
       "category": "pizzas",
       "tipo": "carne",
-      "image": "assets/pizza_panceta.jpeg",
+      "image": "assets/pizza_panceta.jpg",
       "description": "Pizza de mozzarella, panceta y verdeo (8 porciones)",
       "tags": ["10-15 min"]
     },
@@ -199,7 +199,7 @@
       "price": 11000,
       "category": "pizzas",
       "tipo": "vegetariano",
-      "image": "assets/pizza_cebolla.jpeg",
+      "image": "assets/pizza_cebolla.jpg",
       "description": "Pizza de cebolla caramelizada y mozzarella (8 porciones)",
       "tags": ["10-15 min"]
     },
@@ -209,38 +209,38 @@
       "price": 10600,
       "category": "pizzas",
       "tipo": "vegetariano",
-      "image": "assets/pizza_muzza.jpeg",
+      "image": "assets/pizza_muzza.jpg",
       "description": "Pizza de mozzarella (8 porciones)",
       "tags": ["10-15 min"]
     },
     {
       "id": 21,
-      "name": "Empanadas de Carne x3",
-      "price": 6600,
+      "name": "Chipa",
+      "price": 7400,
       "category": "otros",
-      "tipo": "carne",
-      "image": "assets/empanadas.jpeg",
-      "description": "3 empanadas de carne cortada a cuchillo",
+      "tipo": "vegetariano",
+      "image": "assets/chipa.jpg",
+      "description": "10 unidades de chipa (250 gr)",
       "tags": ["10-15 min"]
     },
     {
-      "id": 22,
-      "name": "Empanadas de Carne x12",
-      "price": 25100,
-      "category": "otros",
-      "tipo": "carne",
-      "image": "assets/empanadas_12.jpeg",
-      "description": "12 empanadas de carne cortada a cuchillo",
-      "tags": ["Más Vendido", "10-15 min"]
-    },
-    {
       "id": 23,
-      "name": "Chipa",
-      "price": 9300,
+      "name": "Puré de Papas",
+      "price": 5000,
       "category": "otros",
       "tipo": "vegetariano",
-      "image": "assets/chipa.jpeg",
-      "description": "10 unidades de chipa (250 gr)",
+      "image": "assets/pure_papas.jpg",
+      "description": "Puré de Papas (250 gr)",
+      "tags": ["10-15 min"]
+    },
+    {
+      "id": 24,
+      "name": "Guiso de Lentejas",
+      "price": 10100,
+      "category": "platos",
+      "tipo": "carne",
+      "image": "assets/guiso_lentejas.jpg",
+      "description": "Papa, zanahoria, cebolla, ajo, perejil, chorizo, panceta ahumada, chorizo colorado y roastbeef (500 gr)",
       "tags": ["10-15 min"]
     }
   ]
