@@ -1,7 +1,7 @@
 // Configuración de Envío de Pedidos
 const CONFIG = {
     whatsappNumber: "5491150250623",
-    contactEmail: "pedidos@vicentefood.com",
+    contactEmail: "contacto@vicentefood.com",
     transferDiscount: 0,
     workerURL: "https://vicentefood-api.joaquinpetrocelli.workers.dev/"
 };
