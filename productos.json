@@ -6,7 +6,7 @@
     {
       "id": 22,
       "name": "Bondiola Desmenuzada",
-      "price": 24200,
+      "price": 25500,
       "category": "platos",
       "tipo": "carne",
       "image": "assets/bondiola_desmechada.jpg",
@@ -16,7 +16,7 @@
     {
       "id": 1,
       "name": "Pastel de Bondiola y Batata",
-      "price": 9000,
+      "price": 10800,
       "category": "platos",
       "tipo": "carne",
       "image": "assets/pastel_batata.jpg",
@@ -26,7 +26,7 @@
     {
       "id": 2,
       "name": "Pastel de Papas",
-      "price": 8900,
+      "price": 10700,
       "category": "platos",
       "tipo": "carne",
       "image": "assets/pastel_papa.jpg",
@@ -36,7 +36,7 @@
     {
       "id": 3,
       "name": "Canelones de Espinaca",
-      "price": 8900,
+      "price": 10900,
       "category": "platos",
       "tipo": "vegetariano",
       "image": "assets/canelones_espinaca.jpg",
@@ -46,7 +46,7 @@
     {
       "id": 4,
       "name": "Canelones de Pollo",
-      "price": 9200,
+      "price": 11300,
       "category": "platos",
       "tipo": "carne",
       "image": "assets/canelones_pollo.jpg",
@@ -56,7 +56,7 @@
     {
       "id": 5,
       "name": "Pollo al Curry",
-      "price": 9300,
+      "price": 11300,
       "category": "platos",
       "tipo": "carne",
       "image": "assets/pollo_curry.jpg",
@@ -66,7 +66,7 @@
     {
       "id": 6,
       "name": "Pollo con Hongos",
-      "price": 9800,
+      "price": 11900,
       "category": "platos",
       "tipo": "carne",
       "image": "assets/pollo_hongos.jpg",
@@ -76,7 +76,7 @@
     {
       "id": 7,
       "name": "Goulash con Spaetzle",
-      "price": 9900,
+      "price": 11900,
       "category": "platos",
       "tipo": "carne",
       "image": "assets/goulash.jpg",
@@ -86,7 +86,7 @@
     {
       "id": 8,
       "name": "Tarta de Pollo",
-      "price": 8200,
+      "price": 10000,
       "category": "tartas",
       "tipo": "carne",
       "image": "assets/tarta_pollo.jpg",
@@ -96,7 +96,7 @@
     {
       "id": 9,
       "name": "Tarta de Jamón y Queso",
-      "price": 7400,
+      "price": 9100,
       "category": "tartas",
       "tipo": "carne",
       "image": "assets/tarta_jyq.jpg",
@@ -106,7 +106,7 @@
     {
       "id": 10,
       "name": "Tarta de Calabaza",
-      "price": 7400,
+      "price": 9100,
       "category": "tartas",
       "tipo": "vegetariano",
       "image": "assets/tarta_calabaza.jpg",
@@ -116,7 +116,7 @@
     {
       "id": 11,
       "name": "Tarta de Hongos",
-      "price": 8200,
+      "price": 9900,
       "category": "tartas",
       "tipo": "vegetariano",
       "image": "assets/tarta_hongos.jpg",
@@ -126,7 +126,7 @@
     {
       "id": 12,
       "name": "Tarta de Zapallitos",
-      "price": 7500,
+      "price": 9200,
       "category": "tartas",
       "tipo": "vegetariano",
       "image": "assets/tarta_zapallitos.jpg",
@@ -136,7 +136,7 @@
     {
       "id": 13,
       "name": "Tarta de Brócoli, Panceta y Provolone",
-      "price": 8200,
+      "price": 9900,
       "category": "tartas",
       "tipo": "carne",
       "image": "assets/tarta_brocoli.jpg",
@@ -146,7 +146,7 @@
     {
       "id": 14,
       "name": "Tarta de Queso y Cebolla",
-      "price": 7500,
+      "price": 9200,
       "category": "tartas",
       "tipo": "vegetariano",
       "image": "assets/tarta_qyc.jpg",
@@ -156,7 +156,7 @@
     {
       "id": 15,
       "name": "Tarta de Puerros",
-      "price": 7800,
+      "price": 9500,
       "category": "tartas",
       "tipo": "vegetariano",
       "image": "assets/tarta_puerros.jpg",
@@ -166,7 +166,7 @@
     {
       "id": 16,
       "name": "Tarta de Espinaca",
-      "price": 7800,
+      "price": 9500,
       "category": "tartas",
       "tipo": "vegetariano",
       "image": "assets/tarta_espinaca.jpg",
@@ -176,7 +176,7 @@
     {
       "id": 17,
       "name": "Pizza de Panceta y Verdeo",
-      "price": 12000,
+      "price": 14600,
       "category": "pizzas",
       "tipo": "carne",
       "image": "assets/pizza_panceta.jpg",
@@ -186,7 +186,7 @@
     {
       "id": 18,
       "name": "Pizza de 3 Quesos",
-      "price": 12000,
+      "price": 14600,
       "category": "pizzas",
       "tipo": "vegetariano",
       "image": "assets/pizza_3q.jpeg",
@@ -196,7 +196,7 @@
     {
       "id": 19,
       "name": "Pizza de Cebolla Caramelizada",
-      "price": 11000,
+      "price": 13300,
       "category": "pizzas",
       "tipo": "vegetariano",
       "image": "assets/pizza_cebolla.jpg",
@@ -206,7 +206,7 @@
     {
       "id": 20,
       "name": "Pizza de Mozzarella",
-      "price": 10600,
+      "price": 12900,
       "category": "pizzas",
       "tipo": "vegetariano",
       "image": "assets/pizza_muzza.jpg",
@@ -216,7 +216,7 @@
     {
       "id": 21,
       "name": "Chipa",
-      "price": 7400,
+      "price": 7800,
       "category": "otros",
       "tipo": "vegetariano",
       "image": "assets/chipa.jpg",
@@ -226,7 +226,7 @@
     {
       "id": 23,
       "name": "Puré de Papas",
-      "price": 5000,
+      "price": 5300,
       "category": "otros",
       "tipo": "vegetariano",
       "image": "assets/pure_papas.jpg",
@@ -236,7 +236,7 @@
     {
       "id": 24,
       "name": "Guiso de Lentejas",
-      "price": 10100,
+      "price": 10700,
       "category": "platos",
       "tipo": "carne",
       "image": "assets/guiso_lentejas.jpg",
